@@ -1,0 +1,579 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|e:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\enemycontroller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\enemycontroller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\ai\\finalgptmanager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\ai\\finalgptmanager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\ai\\gptmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\ai\\gptmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|e:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\inkdialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\inkdialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\finalinkdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\finalinkdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\failedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\failedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\loaduimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\loaduimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\bookuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\bookuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\finalbookuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\finalbookuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\mainmenuanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\mainmenuanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\battle sciript\\sfbattledialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\battle sciript\\sfbattledialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\second_hp_battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\second_hp_battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\hp_battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\hp_battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\battle sciript\\finalbattledialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\battle sciript\\finalbattledialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\battle sciript\\finalbattlestarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\battle sciript\\finalbattlestarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\optionsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\optionsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\memoryfragmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\memoryfragmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\sceneinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\sceneinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\saveuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\saveuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\enemytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\enemytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Library\\PackageCache\\com.unity.recorder@a206dd5dd161\\Editor\\Sources\\Recorders\\MovieRecorder\\Encoder\\CoreEncoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.recorder@a206dd5dd161\\Editor\\Sources\\Recorders\\MovieRecorder\\Encoder\\CoreEncoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\chestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\chestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\bedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\bedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\LocalLow\\\u5080\u5121\\\u5C08\u984C-\u5080\u5121\\save_0.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\saveableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\saveableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C\\Assets\\SF BookSlider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\battle sciript\\finalbookslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\battle sciript\\finalbookslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\enemyidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\enemyidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\LocalLow\\\u5080\u5121\\\u5C08\u984C-\u5080\u5121\\save_1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\sciript\\previewimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\previewimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\assets\\battle sciript\\bookslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6B5B52-76EC-8777-1C85-2F5918D5E8D9}|Assembly-CSharp.csproj|solutionrelative:assets\\battle sciript\\bookslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InkDialogueManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\InkDialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\InkDialogueManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\InkDialogueManager.cs",
+              "RelativeToolTip": "Assets\\Sciript\\InkDialogueManager.cs",
+              "ViewState": "AgIAAC0GAAAAAAAAAIBZwDIGAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T09:22:01.884Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyController2D.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\EnemyController2D.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\EnemyController2D.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\EnemyController2D.cs",
+              "RelativeToolTip": "Assets\\Sciript\\EnemyController2D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:12:20.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\MainMenu.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Sciript\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:23:55.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookUIManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\BookUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\BookUIManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\BookUIManager.cs",
+              "RelativeToolTip": "Assets\\Sciript\\BookUIManager.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAswPAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:23:03.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FinalBookUIManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\FinalBookUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\FinalBookUIManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\FinalBookUIManager.cs",
+              "RelativeToolTip": "Assets\\Sciript\\FinalBookUIManager.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAA/wOwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:10:09.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OptionsUI.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\OptionsUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\OptionsUI.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\OptionsUI.cs",
+              "RelativeToolTip": "Assets\\Sciript\\OptionsUI.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:52:41.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MemoryFragmentData.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\MemoryFragmentData.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\MemoryFragmentData.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\MemoryFragmentData.cs",
+              "RelativeToolTip": "Assets\\Sciript\\MemoryFragmentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T16:37:58.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HP.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\HP.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\HP.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\HP.cs",
+              "RelativeToolTip": "Assets\\Sciript\\HP.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T16:37:16.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoadUIManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\LoadUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\LoadUIManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\LoadUIManager.cs",
+              "RelativeToolTip": "Assets\\Sciript\\LoadUIManager.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAcwPYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:57:06.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FailedButton.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\FailedButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\FailedButton.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\FailedButton.cs",
+              "RelativeToolTip": "Assets\\Sciript\\FailedButton.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAzwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:52:03.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FinalInkDialogue.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\FinalInkDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\FinalInkDialogue.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\FinalInkDialogue.cs",
+              "RelativeToolTip": "Assets\\Sciript\\FinalInkDialogue.cs",
+              "ViewState": "AgIAAPkEAAAAAAAAAIBZwP4EAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:55:58.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FinalGPTManager1.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\AI\\FinalGPTManager1.cs",
+              "RelativeDocumentMoniker": "Assets\\AI\\FinalGPTManager1.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\AI\\FinalGPTManager1.cs",
+              "RelativeToolTip": "Assets\\AI\\FinalGPTManager1.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwGAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:35:38.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GPTManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\AI\\GPTManager.cs",
+              "RelativeDocumentMoniker": "Assets\\AI\\GPTManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\AI\\GPTManager.cs",
+              "RelativeToolTip": "Assets\\AI\\GPTManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:35:41.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainMenuAnimator.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\MainMenuAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\MainMenuAnimator.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\MainMenuAnimator.cs",
+              "RelativeToolTip": "Assets\\Sciript\\MainMenuAnimator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:25:10.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FinalBattleStarter.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\FinalBattleStarter.cs",
+              "RelativeDocumentMoniker": "Assets\\Battle Sciript\\FinalBattleStarter.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\FinalBattleStarter.cs",
+              "RelativeToolTip": "Assets\\Battle Sciript\\FinalBattleStarter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:56:37.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "second_Hp_battle.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\second_Hp_battle.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\second_Hp_battle.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\second_Hp_battle.cs",
+              "RelativeToolTip": "Assets\\Sciript\\second_Hp_battle.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:46:46.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SFBattleDialogueManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\SFBattleDialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Battle Sciript\\SFBattleDialogueManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\SFBattleDialogueManager.cs",
+              "RelativeToolTip": "Assets\\Battle Sciript\\SFBattleDialogueManager.cs",
+              "ViewState": "AgIAAMsBAAAAAAAAAAAMwNIBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T14:49:28.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FinalBattleDialogueManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\FinalBattleDialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Battle Sciript\\FinalBattleDialogueManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\FinalBattleDialogueManager.cs",
+              "RelativeToolTip": "Assets\\Battle Sciript\\FinalBattleDialogueManager.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAwwNAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:56:46.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Hp_battle.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\Hp_battle.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\Hp_battle.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\Hp_battle.cs",
+              "RelativeToolTip": "Assets\\Sciript\\Hp_battle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:54:52.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SceneInteractable.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\SceneInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\SceneInteractable.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\SceneInteractable.cs",
+              "RelativeToolTip": "Assets\\Sciript\\SceneInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T03:41:29.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Portal.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\Portal.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\Portal.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\Portal.cs",
+              "RelativeToolTip": "Assets\\Sciript\\Portal.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAmwAoBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T11:17:21.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SaveUIManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\SaveUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\SaveUIManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\SaveUIManager.cs",
+              "RelativeToolTip": "Assets\\Sciript\\SaveUIManager.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAwKcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T05:42:44.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CoreEncoder.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Library\\PackageCache\\com.unity.recorder@a206dd5dd161\\Editor\\Sources\\Recorders\\MovieRecorder\\Encoder\\CoreEncoder.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.recorder@a206dd5dd161\\Editor\\Sources\\Recorders\\MovieRecorder\\Encoder\\CoreEncoder.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Library\\PackageCache\\com.unity.recorder@a206dd5dd161\\Editor\\Sources\\Recorders\\MovieRecorder\\Encoder\\CoreEncoder.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.recorder@a206dd5dd161\\Editor\\Sources\\Recorders\\MovieRecorder\\Encoder\\CoreEncoder.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwHgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:21:11.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChestController.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\ChestController.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\ChestController.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\ChestController.cs",
+              "RelativeToolTip": "Assets\\Sciript\\ChestController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAcwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T09:39:10.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BedController.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\BedController.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\BedController.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\BedController.cs",
+              "RelativeToolTip": "Assets\\Sciript\\BedController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T09:38:16.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SaveableEntity.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\SaveableEntity.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\SaveableEntity.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\SaveableEntity.cs",
+              "RelativeToolTip": "Assets\\Sciript\\SaveableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T08:19:01.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NPCManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\NPCManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\NPCManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\NPCManager.cs",
+              "RelativeToolTip": "Assets\\Sciript\\NPCManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T08:14:40.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EnemyTrigger.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\EnemyTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\EnemyTrigger.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\EnemyTrigger.cs",
+              "RelativeToolTip": "Assets\\Sciript\\EnemyTrigger.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T08:15:48.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "save_0.json",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\LocalLow\\\u5080\u5121\\\u5C08\u984C-\u5080\u5121\\save_0.json",
+              "ToolTip": "C:\\Users\\User\\AppData\\LocalLow\\\u5080\u5121\\\u5C08\u984C-\u5080\u5121\\save_0.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-30T08:07:21.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "save_1.json",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\LocalLow\\\u5080\u5121\\\u5C08\u984C-\u5080\u5121\\save_1.json",
+              "ToolTip": "C:\\Users\\User\\AppData\\LocalLow\\\u5080\u5121\\\u5C08\u984C-\u5080\u5121\\save_1.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-30T07:57:47.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EnemyIdentity.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\EnemyIdentity.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\EnemyIdentity.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\EnemyIdentity.cs",
+              "RelativeToolTip": "Assets\\Sciript\\EnemyIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T08:05:42.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PreviewImageManager.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\PreviewImageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\PreviewImageManager.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Sciript\\PreviewImageManager.cs",
+              "RelativeToolTip": "Assets\\Sciript\\PreviewImageManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T03:40:29.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BookSlider.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\BookSlider.cs",
+              "RelativeDocumentMoniker": "Assets\\Battle Sciript\\BookSlider.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\BookSlider.cs",
+              "RelativeToolTip": "Assets\\Battle Sciript\\BookSlider.cs",
+              "ViewState": "AgIAAGkAAAAAODMzM7MlwHcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T04:16:13.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SF BookSlider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C\\Assets\\SF BookSlider.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C\\Assets\\SF BookSlider.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T04:37:44.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FinalBookSlider.cs",
+              "DocumentMoniker": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\FinalBookSlider.cs",
+              "RelativeDocumentMoniker": "Assets\\Battle Sciript\\FinalBookSlider.cs",
+              "ToolTip": "E:\\\u5C08\u984C\\\u5C08\u984C1202\\\u5C08\u984C\\Assets\\Battle Sciript\\FinalBookSlider.cs",
+              "RelativeToolTip": "Assets\\Battle Sciript\\FinalBookSlider.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAwJAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T04:37:32.821Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

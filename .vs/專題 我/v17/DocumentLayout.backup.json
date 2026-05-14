@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\Assets\\Ink\\Prologue.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Ink\\Prologue.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB29E274-1394-250B-9115-B498BC5E4D86}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\assets\\sciript\\inkdialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB29E274-1394-250B-9115-B498BC5E4D86}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\inkdialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB29E274-1394-250B-9115-B498BC5E4D86}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\assets\\sciript\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB29E274-1394-250B-9115-B498BC5E4D86}|Assembly-CSharp.csproj|solutionrelative:assets\\sciript\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prologue.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\Assets\\Ink\\Prologue.json",
+              "RelativeDocumentMoniker": "Assets\\Ink\\Prologue.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\Assets\\Ink\\Prologue.json",
+              "RelativeToolTip": "Assets\\Ink\\Prologue.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-22T13:10:53.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InkDialogueManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\Assets\\Sciript\\InkDialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\InkDialogueManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\Assets\\Sciript\\InkDialogueManager.cs",
+              "RelativeToolTip": "Assets\\Sciript\\InkDialogueManager.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAgwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T12:52:47.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\Assets\\Sciript\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Sciript\\Player.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Project\\\u5C08\u984C(\u5099\u4EFD0921)\\\u5C08\u984C \u6211\\Assets\\Sciript\\Player.cs",
+              "RelativeToolTip": "Assets\\Sciript\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T12:47:48.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

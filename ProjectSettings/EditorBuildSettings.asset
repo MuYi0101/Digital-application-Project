@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/IntroVideo.unity
+    guid: 840224ddfffb47f4bb4f3143814d4f3a
+  - enabled: 1
+    path: Assets/Scene/MainMenu.unity
+    guid: 849e30b48bd2a3a458e06b11567f7fe7
+  - enabled: 1
+    path: Assets/Scene/Prologue.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scene/Fighting.unity
+    guid: a46c650df60870e4aa66949d0eb3cc30
+  - enabled: 1
+    path: Assets/Scene/Second scene.unity
+    guid: efbc84e8fc4a2bf4f980e63c99b2d03e
+  - enabled: 1
+    path: Assets/Scene/Second Fighting.unity
+    guid: 6ce115412413e524b8a150d89edc829c
+  - enabled: 1
+    path: Assets/Scene/Back_second.unity
+    guid: 4b9f81a6d9901e9458cd0ead5f43084f
+  - enabled: 1
+    path: Assets/Scene/Final.unity
+    guid: b6842bc403f9fc746b445ca53425c8f2
+  - enabled: 1
+    path: Assets/Scene/FinalBattle.unity
+    guid: fa3a080c721e8d445a98abead86d379c
+  - enabled: 1
+    path: Assets/Scene/BadEnd.unity
+    guid: 4d4b0200fb2769b46b8ed4a607a837d9
+  - enabled: 1
+    path: Assets/Scene/NormalEnd.unity
+    guid: e8dbac5a233889c40affe3ddb7134360
+  - enabled: 1
+    path: Assets/Scene/TrueEnd.unity
+    guid: 14b664c8c1647fa4ebaa8cf8490488cb
+  - enabled: 1
+    path: Assets/Scene/FightAgain.unity
+    guid: cc42b2ab9c0648b46ba469dd6b2d1aba
+  - enabled: 1
+    path: Assets/Scene/FightAgain2.unity
+    guid: aad23afe9d6af034d97886e4059dab0d
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,314 @@
+﻿using Ink.Runtime;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+public class BattleDialogueManager : MonoBehaviour
+{
+    [Header("UI")]
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI dialogueText;
+    public GameObject dialoguePanel;
+
+    [Header("選項 UI")]
+    public GameObject choiceContainer;
+    public Button[] choiceButtons;
+
+    public static BattleDialogueManager Instance;
+
+    [Header("Ink 劇本 JSON")]
+    public TextAsset inkJSON;
+
+    public Story story;
+
+    [Header("動畫控制")]
+    public FightingAnimator fightAnimator;
+
+    private bool dialogueIsPlaying = false;
+    private bool questionsDropped = false;
+
+    // ===== 🧩 空白鍵控制相關 =====
+    [Header("輸入控制設定")]
+    public float inputDelay = 0.5f; // 顯示新句子後的延遲秒數
+    private float inputTimer = 0f;
+    private bool canContinue = false;  // 是否允許繼續
+    private bool skipLocked = false;   // 防止重複按
+    private bool isContinuing = false; // Ink 是否正在處理
+    private bool isShowingChoices = false; // 是否顯示選項中
+
+    private Action onDialogueComplete;
+
+    void Awake()
+    {
+        Instance = this;
+        if (dialoguePanel != null) dialoguePanel.SetActive(false);
+        if (choiceContainer != null) choiceContainer.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (!dialogueIsPlaying) return;
+
+        // 🕒 延遲計時
+        if (!canContinue)
+        {
+            inputTimer += Time.deltaTime;
+            if (inputTimer >= inputDelay)
+            {
+                canContinue = true;
+                skipLocked = false;
+            }
+            return;
+        }
+
+        // 🚫 顯示選項時禁止空白鍵
+        if (isShowingChoices)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+                Debug.Log("🚫 顯示選項時空白鍵無效");
+            return;
+        }
+
+        // ⏩ 空白鍵繼續對話
+        if (Input.GetKeyDown(KeyCode.Space) && canContinue && !skipLocked && !isContinuing)
+        {
+            skipLocked = true;
+            StartCoroutine(SafeContinue());
+        }
+    }
+
+    // ========= 🪶 Ink 對話控制 =========
+    public void EnterDialogueMode(TextAsset newInkJSON, string knotName = "start", Action onComplete = null)
+    {
+        if (newInkJSON == null)
+        {
+            Debug.LogWarning("⚠️ Ink JSON 為空，無法啟動對話。");
+            return;
+        }
+
+        inkJSON = newInkJSON;
+        story = new Story(inkJSON.text);
+        dialogueIsPlaying = true;
+        onDialogueComplete = onComplete;
+
+        if (!string.IsNullOrEmpty(knotName))
+        {
+            try
+            {
+                story.ChoosePathString(knotName);
+            }
+            catch (Exception e)
+            {
+                Debug.LogWarning($"⚠️ 指定的 knot 「{knotName}」不存在：{e.Message}");
+            }
+        }
+
+        dialoguePanel.SetActive(true);
+        ContinueStory();
+    }
+
+    private IEnumerator SafeContinue()
+    {
+        isContinuing = true;
+        canContinue = false;
+        inputTimer = 0f;
+
+        yield return new WaitForSeconds(0.05f);
+
+        ContinueStory();
+
+        yield return new WaitForSeconds(0.15f);
+        isContinuing = false;
+    }
+
+    public void ContinueStory()
+    {
+        if (story != null && story.canContinue)
+        {
+            string line = story.Continue().Trim();
+            if (dialogueText != null)
+                dialogueText.text = line;
+
+            foreach (var tag in story.currentTags)
+            {
+                if (tag.StartsWith("play_music"))
+                {
+                    string[] parts = tag.Split(' ');
+                    if (parts.Length > 1)
+                    {
+                        string musicName = parts[1];
+                        Debug.Log($"🎵 偵測到音樂標籤：{musicName}");
+                        PlayMusic(musicName);
+                    }
+                }
+
+            }
+
+            string speakerName = "";
+            try
+            {
+                var v = story.variablesState["speaker"];
+                if (v != null) speakerName = v.ToString();
+            }
+            catch { }
+
+            if (nameText != null)
+                nameText.text = speakerName;
+
+            DisplayChoices();
+        }
+        else
+        {
+            // 🧩 當劇情走完，安全檢查 story 與 tags
+            if (story != null)
+            {
+                // 安全取 currentTags
+                List<string> tags = story.currentTags ?? new List<string>();
+                if (tags.Contains("DONE"))
+                {
+                    var hp = FindObjectOfType<HP>();
+                    if (hp != null)
+                    {
+                        hp.hp += 1;
+                        Debug.Log("❤️ HP +1! 目前 HP = " + hp.hp);
+                    }
+
+                    Debug.Log("✅ DONE tag detected, play outro before loading scene...");
+                    if (fightAnimator != null)
+                    {
+                        StartCoroutine(fightAnimator.PlayBattleOutro(() =>
+                        {
+                            UnityEngine.SceneManagement.SceneManager.LoadScene("Second scene");
+                        }));
+                    }
+                    else
+                    {
+                        UnityEngine.SceneManagement.SceneManager.LoadScene("Second scene");
+                    }
+                    return;
+                }
+
+
+                // 若沒有 Tag，再嘗試用路徑判斷（保險用）
+                string currentPath = "";
+                try { currentPath = story.state.currentPathString; } catch { }
+
+                if (!string.IsNullOrEmpty(currentPath))
+                {
+                    if (currentPath.Contains("DONE"))
+                    {
+                        UnityEngine.SceneManagement.SceneManager.LoadScene("Second scene");
+                        return;
+                    }
+                }
+            }
+
+            EndDialogue();
+        }
+
+        // 每次顯示新句子後重新啟動延遲
+        canContinue = false;
+        inputTimer = 0f;
+        skipLocked = true;
+
+        EventSystem.current.SetSelectedGameObject(null); // 清掉選取物件
+        Input.ResetInputAxes(); // 清掉所有輸入
+    }
+
+    private void DisplayChoices()
+    {
+        List<Choice> choices = story.currentChoices;
+        isShowingChoices = choices.Count >= 1; // 🚫 顯示選項時空白鍵無效
+
+        if (choiceContainer != null)
+            choiceContainer.SetActive(choices.Count > 0);
+
+        if (choices.Count > 0 && !questionsDropped && fightAnimator != null)
+        {
+            StartCoroutine(fightAnimator.DropQuestions(choices.Count));
+            questionsDropped = true;
+        }
+        for (int i = 0; i < choiceButtons.Length; i++)
+        {
+            if (i < choices.Count)
+            {
+                var btn = choiceButtons[i];
+                btn.gameObject.SetActive(true);
+
+                var tmp = btn.GetComponentInChildren<TextMeshProUGUI>();
+                var txt = btn.GetComponentInChildren<Text>();
+
+                if (tmp != null) tmp.text = choices[i].text;
+                else if (txt != null) txt.text = choices[i].text;
+
+                int choiceIndex = i;
+                btn.onClick.RemoveAllListeners();
+                btn.onClick.AddListener(() => OnChoiceSelected(choiceIndex));
+            }
+            else
+            {
+                if (choiceButtons[i] != null)
+                    choiceButtons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    private void OnChoiceSelected(int choiceIndex)
+    {
+        isShowingChoices = false; // ✅ 解鎖空白鍵
+        if (choiceContainer != null) choiceContainer.SetActive(false);
+
+        if (fightAnimator != null)
+        {
+            StartCoroutine(fightAnimator.RaiseQuestions());
+            questionsDropped = false;
+        }
+
+        story.ChooseChoiceIndex(choiceIndex);
+        ContinueStory();
+    }
+
+    private void PlayMusic(string musicName)
+    {
+        var bgmManager = FindObjectOfType<BGMManager>();
+        if (bgmManager != null)
+        {
+            bgmManager.PlayMusic(musicName);
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ 找不到 BGMManager，無法播放音樂：" + musicName);
+        }
+    }
+    private void EndDialogue()
+    {
+        dialogueIsPlaying = false;
+        dialoguePanel.SetActive(false);
+        if (choiceContainer != null) choiceContainer.SetActive(false);
+
+        Debug.Log("🏁 對話結束");
+
+        if (fightAnimator != null)
+        {
+            Debug.Log("🎬 播放結束布幕動畫");
+            StartCoroutine(fightAnimator.PlayBattleOutro(() =>
+            {
+                Debug.Log("🎞️ 結束布幕動畫播放完畢");
+                onDialogueComplete?.Invoke();
+                onDialogueComplete = null;
+            }));
+        }
+        else
+        {
+            Debug.Log("⚠️ fightAnimator 沒有被指定");
+            onDialogueComplete?.Invoke();
+            onDialogueComplete = null;
+        }
+    }
+
+
+}

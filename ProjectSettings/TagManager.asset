@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - UI
+  - Boss
+  - HP
+  - Enemy
+  - NPC
+  - EnemyNPC
+  - GuideNPC
+  - StoryNPC
+  - SpawnedObject
+  - GateNPC
+  - FightEnemy
+  - Mother
+  - Father
+  - AI
+  - EnemyHide
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: other
+    uniqueID: 1989948023
+    locked: 0
+  - name: "\u7269\u4EF62"
+    uniqueID: 2353886707
+    locked: 0
+  - name: "\u7269\u4EF6"
+    uniqueID: 2119614441
+    locked: 0
+  - name: "\u9053\u5177"
+    uniqueID: 3344445273
+    locked: 0
+  - name: "\u5834\u666F"
+    uniqueID: 757267871
+    locked: 0
+  - name: NPC
+    uniqueID: 2991064173
+    locked: 0
+  - name: Boss
+    uniqueID: 3869164149
+    locked: 0
+  - name: Clues
+    uniqueID: 2048946833
+    locked: 0
+  - name: Player
+    uniqueID: 3967421025
+    locked: 0
+  - name: "\u6A39"
+    uniqueID: 2678708949
+    locked: 0
+  - name: "\u56DE\u61B6"
+    uniqueID: 3553765841
+    locked: 0
+  - name: "\u9ED1\u5E55"
+    uniqueID: 888784731
+    locked: 0
+  m_RenderingLayers:
+  - Default
